@@ -102,3 +102,42 @@ The model can be executed with the following command:
 
 ```bash
 python main.py --seq_len 50 --num_samples 10000 --batch_size 128 --epochs 100 --lr 1e-3 --use_gpu
+```
+
+
+The model supports the following optional flags for configuration:
+
+| Flag | Description |
+|------|-------------|
+| `--seq_len` | Sequence length for the input time series |
+| `--num_samples` | Number of synthetic training samples to generate |
+| `--batch_size` | Batch size used during training |
+| `--epochs` | Number of training epochs |
+| `--lr` | Learning rate for optimizer |
+| `--use_gpu` | Enable GPU acceleration if available |
+| `--model_dim` | Dimension of the internal Transformer representation (default: 64) |
+| `--heads` | Number of attention heads (default: 4) |
+| `--layers` | Number of transformer encoder layers (default: 2) |
+
+---
+
+## 7. Output Files
+
+Generated outputs include:
+
+| File | Description |
+|------|-------------|
+| `btspformer_model.pth` | Final trained model |
+| `btspformer_loss_curve.png` | Training loss curve |
+| `btspformer_inference.png` | Prediction vs target visualization |
+| `logs/` | TensorBoard logs |
+| `checkpoints/` | Model checkpoints (optional) |
+
+---
+
+## 8. Future Work
+
+BTSPFormer serves as a biologically inspired baseline. Future extensions may include:
+- EEG-to-Image generation via diffusion
+- Reinforcement Learning with predictive planning
+- Multimodal memory-guided attention
