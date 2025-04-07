@@ -15,7 +15,7 @@ Behavioral Timescale Synaptic Plasticity (BTSP) is a form of synaptic learning d
 - **Bidirectional Plasticity**: Weaker synapses are potentiated, while stronger ones are suppressed.
 
 🧠 **Reference**:  
-Milstein, A. D., Li, Y., Bittner, K. C., Grienberger, C., Soltesz, I., Magee, J. C., & Romani, S. (2021). *Bidirectional synaptic plasticity rapidly modifies hippocampal representations.* eLife, 10, e73046. https://doi.org/10.7554/eLife.73046
+[1] Milstein, A. D., Li, Y., Bittner, K. C., Grienberger, C., Soltesz, I., Magee, J. C., & Romani, S. (2021). *Bidirectional synaptic plasticity rapidly modifies hippocampal representations.* eLife, 10, e73046. https://doi.org/10.7554/eLife.73046
 
 ---
 
